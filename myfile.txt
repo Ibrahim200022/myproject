@@ -1,2 +1,3 @@
 This is my first Github file
 I have added another line
+I think I am getting along with Git
