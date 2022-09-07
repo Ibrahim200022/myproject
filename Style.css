@@ -1,0 +1,77 @@
+/* body{
+
+    background-color:rgb(40,40, 40);
+}
+
+h4{
+    background-color: blue;
+    font-size: 20px;
+}
+
+div{
+
+    color: violet;
+    border: 2px solid yellow; 
+}
+
+div:hover{
+
+    color: blue;
+    
+} */
+
+body{
+
+    background-image: url(images/crop2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: none;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 20px;
+
+}
+
+body static-width{
+
+    height: 2px;
+}
+p{
+    margin: 40px;
+    padding: 30px;
+}
+
+table{
+
+    border: 1px solid red;
+    margin: 2rem auto;
+}
+th{
+
+    padding: 1rem;
+}
+td{
+    padding: 1rem;
+}
+
+nav ul{
+
+    float: top right;
+    text-align: right;
+    list-style: none;
+}
+nav li{
+
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav a{
+    color: blue;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    border: 1px solid black;
+    transition: 5s;
+}
